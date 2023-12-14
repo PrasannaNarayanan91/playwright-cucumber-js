@@ -1,0 +1,23 @@
+{
+  "name": "playwright-cucumber-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/PrasannaNarayanan91/playwright-cucumber-js.git",
+  "author": "PrasannaNarayanan91 <prasa91@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.4"
+  },
+  "scripts": {
+    "test": ". ./set_env.sh && cucumber-js",
+    "report": "node report.js"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "config": "^3.3.9",
+    "cucumber-html-reporter": "^7.1.1",
+    "file-system": "^2.2.2",
+    "moment": "^2.29.4"
+  }
+}

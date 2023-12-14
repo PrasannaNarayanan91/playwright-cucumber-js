@@ -1,0 +1,5 @@
+{
+    "baseUrl": "http://jupiter.cloud.planittesting.com",
+    "playwrightPageDefaultTimeout": 180000,
+    "cucumberTimeout": 120000
+}

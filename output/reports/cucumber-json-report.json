@@ -1,0 +1,694 @@
+[
+  {
+    "description": "Automating the Test assesment applicaiton",
+    "elements": [
+      {
+        "description": "",
+        "id": "planit-technical-assesment---autoamtion;test-case-1-:-validation-of-contact-form",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Test case 1 : validation of contact form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3038338250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Validated application launch",
+            "match": {
+              "location": "steps/validation.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26283666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Click menu \"Contact\"",
+            "match": {
+              "location": "steps/action.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119196750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Click button \"Submit\"",
+            "match": {
+              "location": "steps/action.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213902374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Validate the \"Forename\" field validation error as \"Forename is required\"",
+            "match": {
+              "location": "steps/validation.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3425208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Validate the \"Email\" field validation error as \"Email is required\"",
+            "match": {
+              "location": "steps/validation.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 820666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Validate the \"Message\" field validation error as \"Message is required\"",
+            "match": {
+              "location": "steps/validation.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 695082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Enter \"Test\" in \"Forename\" field",
+            "match": {
+              "location": "steps/input.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10947292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Enter \"test1@test.com\" in \"Email\" field",
+            "match": {
+              "location": "steps/input.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8036332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Enter \"Message\" in \"Message\" field",
+            "match": {
+              "location": "steps/input.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5275792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Validate error message removed for field \"Forename\"",
+            "match": {
+              "location": "steps/validation.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1318457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Validate error message removed for field \"Email\"",
+            "match": {
+              "location": "steps/validation.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 415708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Validate error message removed for field \"Message\"",
+            "match": {
+              "location": "steps/validation.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242834
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 192582
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1",
+            "line": 4
+          },
+          {
+            "name": "@test",
+            "line": 4
+          },
+          {
+            "name": "@debug",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "planit-technical-assesment---autoamtion;test-case-2-:-submit-contact-form",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Test case 2 : Submit contact form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3268449416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "Validated application launch",
+            "match": {
+              "location": "steps/validation.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4220041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Click menu \"Contact\"",
+            "match": {
+              "location": "steps/action.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59180625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Enter \"Test\" in \"Forename\" field",
+            "match": {
+              "location": "steps/input.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234517625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Enter \"test1@test.com\" in \"Email\" field",
+            "match": {
+              "location": "steps/input.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10973042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Enter \"Message\" in \"Message\" field",
+            "match": {
+              "location": "steps/input.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7363708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Click button \"Submit\"",
+            "match": {
+              "location": "steps/action.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43621916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Validate submission successful page",
+            "match": {
+              "location": "steps/validation.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12383869000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 200332
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test2",
+            "line": 20
+          },
+          {
+            "name": "@test",
+            "line": 20
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "planit-technical-assesment---autoamtion;test-case-3-:-validation-of-contact-form-by-entering-invalid-data",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Test case 3 : validation of contact form by entering invalid data",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2903319709
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "Validated application launch",
+            "match": {
+              "location": "steps/validation.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6567124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "Click menu \"Contact\"",
+            "match": {
+              "location": "steps/action.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55223041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "Enter \"test\" in \"Email\" field",
+            "match": {
+              "location": "steps/input.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 215961374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "Validate the \"Email\" field validation error as \"Please enter a valid email\"",
+            "match": {
+              "location": "steps/validation.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 677875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "Enter \"Telephone\" in \"Telephone\" field",
+            "match": {
+              "location": "steps/input.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8781415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "Validate the \"Telephone\" field validation error as \"Please enter a valid telephone number\"",
+            "match": {
+              "location": "steps/validation.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 582374
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73541
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test3",
+            "line": 30
+          },
+          {
+            "name": "@test",
+            "line": 30
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "planit-technical-assesment---autoamtion;test-case-4-:-shopping-cart",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Test case 4 : shopping cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3109943792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 42,
+            "name": "Validated application launch",
+            "match": {
+              "location": "steps/validation.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4256500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Click menu \"Shop\"",
+            "match": {
+              "location": "steps/action.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59669833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "Add 2 \"Stuffed Frog\" to cart",
+            "match": {
+              "location": "steps/input.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 274427082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "Add 5 \"Fluffy Bunny\" to cart",
+            "match": {
+              "location": "steps/input.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181476707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "Add 3 \"Valentine Bear\" to cart",
+            "match": {
+              "location": "steps/input.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103060124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "Click menu \"Cart\"",
+            "match": {
+              "location": "steps/action.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38793874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "Validate cart list has 2 \"Stuffed Frog\"",
+            "match": {
+              "location": "steps/validation.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 360020083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "Validate cart list has 5 \"Fluffy Bunny\"",
+            "match": {
+              "location": "steps/validation.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3226999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "Validate cart list has 3 \"Valentine Bear\"",
+            "match": {
+              "location": "steps/validation.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2123833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "Validate the price of \"Stuffed Frog\" is $10.99 in cart",
+            "match": {
+              "location": "steps/validation.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8340624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "Validate the price of \"Fluffy Bunny\" is $9.99 in cart",
+            "match": {
+              "location": "steps/validation.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4053667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "Validate the price of \"Valentine Bear\" is $14.99 in cart",
+            "match": {
+              "location": "steps/validation.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2190499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "Validate the subtotal of \"Stuffed Frog\" is $21.98 in cart",
+            "match": {
+              "location": "steps/validation.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4136458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "Validate the subtotal of \"Fluffy Bunny\" is $49.95 in cart",
+            "match": {
+              "location": "steps/validation.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2157083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "Validate the subtotal of \"Valentine Bear\" is $44.97 in cart",
+            "match": {
+              "location": "steps/validation.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1881375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "Validate the total value of product in cart should be 116.9",
+            "match": {
+              "location": "steps/validation.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1916958
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 139917
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test4",
+            "line": 40
+          },
+          {
+            "name": "@test",
+            "line": 40
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "planit-technical-assesment---autoamtion",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Planit Technical Assesment - Autoamtion",
+    "tags": [],
+    "uri": "features/jupiterToys.feature"
+  }
+]
