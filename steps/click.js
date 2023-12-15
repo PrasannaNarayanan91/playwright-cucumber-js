@@ -1,5 +1,3 @@
-let { Given, Then, When } = require("@cucumber/cucumber");
-
 Then("Click menu {string}", async (option) => {
   let locator = `li[id="nav-${option.toLowerCase()}"] > a`
   await action.click(locator)
