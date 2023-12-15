@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3038338250
+              "duration": 3495702457
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 6,
             "name": "Validated application launch",
             "match": {
-              "location": "steps/validation.js:4"
+              "location": "steps/validation.js:1"
             },
             "result": {
               "status": "passed",
-              "duration": 26283666
+              "duration": 18728958
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 7,
             "name": "Click menu \"Contact\"",
             "match": {
-              "location": "steps/action.js:3"
+              "location": "steps/click.js:3"
             },
             "result": {
               "status": "passed",
-              "duration": 119196750
+              "duration": 115577959
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 8,
             "name": "Click button \"Submit\"",
             "match": {
-              "location": "steps/action.js:7"
+              "location": "steps/click.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 213902374
+              "duration": 262897834
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 9,
             "name": "Validate the \"Forename\" field validation error as \"Forename is required\"",
             "match": {
-              "location": "steps/validation.js:8"
+              "location": "steps/validation.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 3425208
+              "duration": 6035209
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 10,
             "name": "Validate the \"Email\" field validation error as \"Email is required\"",
             "match": {
-              "location": "steps/validation.js:8"
+              "location": "steps/validation.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 820666
+              "duration": 2143166
             }
           },
           {
@@ -88,11 +88,11 @@
             "line": 11,
             "name": "Validate the \"Message\" field validation error as \"Message is required\"",
             "match": {
-              "location": "steps/validation.js:8"
+              "location": "steps/validation.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 695082
+              "duration": 1575041
             }
           },
           {
@@ -101,11 +101,11 @@
             "line": 12,
             "name": "Enter \"Test\" in \"Forename\" field",
             "match": {
-              "location": "steps/input.js:3"
+              "location": "steps/input.js:1"
             },
             "result": {
               "status": "passed",
-              "duration": 10947292
+              "duration": 12578707
             }
           },
           {
@@ -114,11 +114,11 @@
             "line": 13,
             "name": "Enter \"test1@test.com\" in \"Email\" field",
             "match": {
-              "location": "steps/input.js:3"
+              "location": "steps/input.js:1"
             },
             "result": {
               "status": "passed",
-              "duration": 8036332
+              "duration": 11556832
             }
           },
           {
@@ -127,11 +127,11 @@
             "line": 14,
             "name": "Enter \"Message\" in \"Message\" field",
             "match": {
-              "location": "steps/input.js:3"
+              "location": "steps/input.js:1"
             },
             "result": {
               "status": "passed",
-              "duration": 5275792
+              "duration": 5309292
             }
           },
           {
@@ -140,11 +140,11 @@
             "line": 15,
             "name": "Validate error message removed for field \"Forename\"",
             "match": {
-              "location": "steps/validation.js:12"
+              "location": "steps/validation.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 1318457
+              "duration": 1257874
             }
           },
           {
@@ -153,11 +153,11 @@
             "line": 16,
             "name": "Validate error message removed for field \"Email\"",
             "match": {
-              "location": "steps/validation.js:12"
+              "location": "steps/validation.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 415708
+              "duration": 420499
             }
           },
           {
@@ -166,11 +166,11 @@
             "line": 17,
             "name": "Validate error message removed for field \"Message\"",
             "match": {
-              "location": "steps/validation.js:12"
+              "location": "steps/validation.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 242834
+              "duration": 249125
             }
           },
           {
@@ -178,7 +178,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 192582
+              "duration": 188915
             }
           }
         ],
@@ -210,7 +210,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3268449416
+              "duration": 3859898999
             }
           },
           {
@@ -219,11 +219,11 @@
             "line": 22,
             "name": "Validated application launch",
             "match": {
-              "location": "steps/validation.js:4"
+              "location": "steps/validation.js:1"
             },
             "result": {
               "status": "passed",
-              "duration": 4220041
+              "duration": 3686291
             }
           },
           {
@@ -232,11 +232,11 @@
             "line": 23,
             "name": "Click menu \"Contact\"",
             "match": {
-              "location": "steps/action.js:3"
+              "location": "steps/click.js:3"
             },
             "result": {
               "status": "passed",
-              "duration": 59180625
+              "duration": 69159041
             }
           },
           {
@@ -245,11 +245,11 @@
             "line": 24,
             "name": "Enter \"Test\" in \"Forename\" field",
             "match": {
-              "location": "steps/input.js:3"
+              "location": "steps/input.js:1"
             },
             "result": {
               "status": "passed",
-              "duration": 234517625
+              "duration": 224186915
             }
           },
           {
@@ -258,11 +258,11 @@
             "line": 25,
             "name": "Enter \"test1@test.com\" in \"Email\" field",
             "match": {
-              "location": "steps/input.js:3"
+              "location": "steps/input.js:1"
             },
             "result": {
               "status": "passed",
-              "duration": 10973042
+              "duration": 7880417
             }
           },
           {
@@ -271,11 +271,11 @@
             "line": 26,
             "name": "Enter \"Message\" in \"Message\" field",
             "match": {
-              "location": "steps/input.js:3"
+              "location": "steps/input.js:1"
             },
             "result": {
               "status": "passed",
-              "duration": 7363708
+              "duration": 6877416
             }
           },
           {
@@ -284,11 +284,11 @@
             "line": 27,
             "name": "Click button \"Submit\"",
             "match": {
-              "location": "steps/action.js:7"
+              "location": "steps/click.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 43621916
+              "duration": 58531457
             }
           },
           {
@@ -297,11 +297,11 @@
             "line": 28,
             "name": "Validate submission successful page",
             "match": {
-              "location": "steps/validation.js:16"
+              "location": "steps/validation.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 12383869000
+              "duration": 4338426666
             }
           },
           {
@@ -309,7 +309,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 200332
+              "duration": 141791
             }
           }
         ],
@@ -337,7 +337,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2903319709
+              "duration": 3064519874
             }
           },
           {
@@ -346,11 +346,11 @@
             "line": 32,
             "name": "Validated application launch",
             "match": {
-              "location": "steps/validation.js:4"
+              "location": "steps/validation.js:1"
             },
             "result": {
               "status": "passed",
-              "duration": 6567124
+              "duration": 4604958
             }
           },
           {
@@ -359,11 +359,11 @@
             "line": 33,
             "name": "Click menu \"Contact\"",
             "match": {
-              "location": "steps/action.js:3"
+              "location": "steps/click.js:3"
             },
             "result": {
               "status": "passed",
-              "duration": 55223041
+              "duration": 91627957
             }
           },
           {
@@ -372,11 +372,11 @@
             "line": 35,
             "name": "Enter \"test\" in \"Email\" field",
             "match": {
-              "location": "steps/input.js:3"
+              "location": "steps/input.js:1"
             },
             "result": {
               "status": "passed",
-              "duration": 215961374
+              "duration": 206221332
             }
           },
           {
@@ -385,11 +385,11 @@
             "line": 36,
             "name": "Validate the \"Email\" field validation error as \"Please enter a valid email\"",
             "match": {
-              "location": "steps/validation.js:8"
+              "location": "steps/validation.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 677875
+              "duration": 3120375
             }
           },
           {
@@ -398,11 +398,11 @@
             "line": 37,
             "name": "Enter \"Telephone\" in \"Telephone\" field",
             "match": {
-              "location": "steps/input.js:3"
+              "location": "steps/input.js:1"
             },
             "result": {
               "status": "passed",
-              "duration": 8781415
+              "duration": 7460750
             }
           },
           {
@@ -411,11 +411,11 @@
             "line": 38,
             "name": "Validate the \"Telephone\" field validation error as \"Please enter a valid telephone number\"",
             "match": {
-              "location": "steps/validation.js:8"
+              "location": "steps/validation.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 582374
+              "duration": 2069167
             }
           },
           {
@@ -423,7 +423,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 73541
+              "duration": 96750
             }
           }
         ],
@@ -451,7 +451,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3109943792
+              "duration": 3750532582
             }
           },
           {
@@ -460,11 +460,11 @@
             "line": 42,
             "name": "Validated application launch",
             "match": {
-              "location": "steps/validation.js:4"
+              "location": "steps/validation.js:1"
             },
             "result": {
               "status": "passed",
-              "duration": 4256500
+              "duration": 5658999
             }
           },
           {
@@ -473,11 +473,11 @@
             "line": 43,
             "name": "Click menu \"Shop\"",
             "match": {
-              "location": "steps/action.js:3"
+              "location": "steps/click.js:3"
             },
             "result": {
               "status": "passed",
-              "duration": 59669833
+              "duration": 84979499
             }
           },
           {
@@ -486,11 +486,11 @@
             "line": 44,
             "name": "Add 2 \"Stuffed Frog\" to cart",
             "match": {
-              "location": "steps/input.js:7"
+              "location": "steps/input.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 274427082
+              "duration": 316525124
             }
           },
           {
@@ -499,11 +499,11 @@
             "line": 45,
             "name": "Add 5 \"Fluffy Bunny\" to cart",
             "match": {
-              "location": "steps/input.js:7"
+              "location": "steps/input.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 181476707
+              "duration": 362208834
             }
           },
           {
@@ -512,11 +512,11 @@
             "line": 46,
             "name": "Add 3 \"Valentine Bear\" to cart",
             "match": {
-              "location": "steps/input.js:7"
+              "location": "steps/input.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 103060124
+              "duration": 201075165
             }
           },
           {
@@ -525,11 +525,11 @@
             "line": 47,
             "name": "Click menu \"Cart\"",
             "match": {
-              "location": "steps/action.js:3"
+              "location": "steps/click.js:3"
             },
             "result": {
               "status": "passed",
-              "duration": 38793874
+              "duration": 76975666
             }
           },
           {
@@ -538,11 +538,11 @@
             "line": 48,
             "name": "Validate cart list has 2 \"Stuffed Frog\"",
             "match": {
-              "location": "steps/validation.js:21"
+              "location": "steps/validation.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 360020083
+              "duration": 362853500
             }
           },
           {
@@ -551,11 +551,11 @@
             "line": 49,
             "name": "Validate cart list has 5 \"Fluffy Bunny\"",
             "match": {
-              "location": "steps/validation.js:21"
+              "location": "steps/validation.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 3226999
+              "duration": 2844208
             }
           },
           {
@@ -564,11 +564,11 @@
             "line": 50,
             "name": "Validate cart list has 3 \"Valentine Bear\"",
             "match": {
-              "location": "steps/validation.js:21"
+              "location": "steps/validation.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 2123833
+              "duration": 2033791
             }
           },
           {
@@ -577,11 +577,11 @@
             "line": 51,
             "name": "Validate the price of \"Stuffed Frog\" is $10.99 in cart",
             "match": {
-              "location": "steps/validation.js:25"
+              "location": "steps/validation.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 8340624
+              "duration": 6663666
             }
           },
           {
@@ -590,11 +590,11 @@
             "line": 52,
             "name": "Validate the price of \"Fluffy Bunny\" is $9.99 in cart",
             "match": {
-              "location": "steps/validation.js:25"
+              "location": "steps/validation.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 4053667
+              "duration": 2774709
             }
           },
           {
@@ -603,11 +603,11 @@
             "line": 53,
             "name": "Validate the price of \"Valentine Bear\" is $14.99 in cart",
             "match": {
-              "location": "steps/validation.js:25"
+              "location": "steps/validation.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 2190499
+              "duration": 1665291
             }
           },
           {
@@ -616,11 +616,11 @@
             "line": 54,
             "name": "Validate the subtotal of \"Stuffed Frog\" is $21.98 in cart",
             "match": {
-              "location": "steps/validation.js:30"
+              "location": "steps/validation.js:27"
             },
             "result": {
               "status": "passed",
-              "duration": 4136458
+              "duration": 5141083
             }
           },
           {
@@ -629,11 +629,11 @@
             "line": 55,
             "name": "Validate the subtotal of \"Fluffy Bunny\" is $49.95 in cart",
             "match": {
-              "location": "steps/validation.js:30"
+              "location": "steps/validation.js:27"
             },
             "result": {
               "status": "passed",
-              "duration": 2157083
+              "duration": 2462707
             }
           },
           {
@@ -642,11 +642,11 @@
             "line": 56,
             "name": "Validate the subtotal of \"Valentine Bear\" is $44.97 in cart",
             "match": {
-              "location": "steps/validation.js:30"
+              "location": "steps/validation.js:27"
             },
             "result": {
               "status": "passed",
-              "duration": 1881375
+              "duration": 2464334
             }
           },
           {
@@ -655,11 +655,11 @@
             "line": 57,
             "name": "Validate the total value of product in cart should be 116.9",
             "match": {
-              "location": "steps/validation.js:35"
+              "location": "steps/validation.js:33"
             },
             "result": {
               "status": "passed",
-              "duration": 1916958
+              "duration": 3816500
             }
           },
           {
@@ -667,7 +667,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 139917
+              "duration": 122457
             }
           }
         ],
