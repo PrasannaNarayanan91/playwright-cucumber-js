@@ -1,9 +1,17 @@
-let { Given, Then, When } = require("@cucumber/cucumber");
+const click = async(locator)=>{
+    await scope.page.locator(locator).click();
+}
 
-Then("Click menu {string}", async (option) => {
-  await scope.page.locator(`li[id="nav-${option.toLowerCase()}"] > a`).click();
-});
+const haveText = async(locator,expectedText)=>{
+    await expect(await scope.page.locator(locator)).toHaveText(expectedText.toString())
+}
 
-Then("Click button {string}", async (button) => {
-  await scope.page.locator(`//*[contains(text(),'${button}')]`).click();
-});
+const haveValue = async(locator,expectedValue)=>{
+    await expect(await scope.page.locator(locator)).toHaveValue(expectedValue.toString());
+}
+
+module.exports = {
+    click,
+    haveText,
+    haveValue
+}

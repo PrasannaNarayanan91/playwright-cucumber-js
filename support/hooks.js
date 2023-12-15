@@ -7,7 +7,7 @@ let {
   setDefaultTimeout,
 } = require("@cucumber/cucumber");
 let appConfig = require("./appConfig.js")
-let { chromium } = require("playwright") ;
+let { chromium, firefox } = require("playwright") ;
 let utils = require('./utils.js');
 let scope = require('./scope.js')
 
